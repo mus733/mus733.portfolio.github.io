@@ -1,0 +1,272 @@
+
+html{
+    margin: 0px;
+}
+
+body{
+    margin: 0px;
+    font-family: ubuntu;
+}
+
+
+#page-header{
+    width: 100%;
+    height: 88px;
+    background-color:#FFFFFF ;
+    position: fixed;
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.35);
+
+}
+#nav-container{
+    height: 88px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+    margin: auto;
+}
+#nav-span{
+    height:88px;
+    width: auto;
+    background-color: transparent;
+    margin: auto;
+    position: relative;
+    
+}
+#nav-span:hover{
+    background-color: #FCA311;
+    
+}
+
+#a-nav{
+    text-decoration: none;
+    font-size: 30px;
+    color: #000000;
+    display: block;
+    padding:27px;
+    margin: 0px;
+    
+    
+}
+
+
+.welcome-div{
+    background-color: #14213D;
+    height: 100vh;
+    width: auto;
+    margin-top: 0px;
+}
+h1{
+    text-align: center;
+    padding-top: 300px;
+    font-size: 120px;
+    color: #FFFFFF;
+
+    
+}
+h2{
+    text-align: center;
+    margin-top: -80px;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: lighter;
+    color:#FCA311 ;
+}
+#projects{
+    height: 1500px;
+    width: auto;
+    background-color: #FCA311;
+}
+.header-projects{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    color: #FDFFFC;
+}
+
+.projects-box{
+    width: 400px;
+    height: 380px;
+    background-color: #FDFFFC;
+    margin-top: 100px;
+    
+    
+
+}
+#projects-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+    
+    
+}
+#projects-img{
+    width: 400px;
+    height: 380px;
+    object-fit: cover;
+
+}
+img{
+    height: 1/2;
+    width: 1/2;
+}
+.alan-turing{
+    object-position: 50% 30%;
+}
+.python-img{
+    object-position: 1% 30%;
+}
+#projects-title-box{
+    width: 400px ;
+    height: 60px;
+    background-color:#14213D ;
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.35);
+    text-align: center;
+    
+    
+
+}
+.padding-top-projects{
+    padding-top: 100px;
+}
+#project-tile{
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.35);
+    
+}
+#p-projects{
+    display: inline-block;
+    margin: 0px;
+    padding: 3.9%;
+    font-size: 25px;
+    color: #FDFFFC;
+}
+#projects-button{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+    background-color: #14213D;
+    stroke: none;
+    border: none;
+    width: 200px;
+    height: auto;
+    padding:9px;
+    color: #FDFFFC;
+    font-size: 25px;
+    font-family: ubuntu;
+    
+}
+#projects-button:hover{
+    background-color: #466EC3;
+}
+#projects-span{
+    color: transparent;
+}
+#projects-span:hover{
+    color: #FCA311;
+}
+{
+    color: #FCA311;
+}
+#contact{
+    height: 800px;
+    width: auto;
+    background-color: #14213D;
+    position: static;
+}
+.header-contact{
+    padding-top: 180px;
+    font-size: 70px;
+    text-align: center;
+    color: #FFFFFF;
+}
+h3{
+    text-align: center;
+    font: 45px;
+    font-style: italic;
+    padding-top: 40px;
+    color: #FFFFFF;
+}
+.fa-github{
+    color: white;
+}
+.fa-facebook{
+    color: white;
+}
+.fa-instagram{
+    color: white;
+}
+.fa-at{
+    color: white;
+}
+.fa-mobile-alt{
+    color: white;
+}
+#p-contact{
+    display: inline-block;
+    margin-left: 9px;
+    margin-right: 33px;
+    font-size: 35px;
+    color: #FDFFFC;
+    
+
+    
+    
+}
+.icons-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    
+    
+
+}
+#footer-line{
+    width: auto;
+    height: 3px;
+    background-color: #FCA311;
+    
+
+}
+footer{
+    width: auto;
+    height: 110px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+#footer-text{
+    color: #FDFFFC;
+}
+.a-projects{
+    margin: 0px;
+}
+.a-links{
+    margin: 0px;
+    position: relative;
+    
+
+}
+#github-link:hover{
+    top: 10px;
+    
+}
+#facebook-link:hover{
+    top: 10px;
+}
+#instagram-link:hover{
+    top: 10px;
+}
+#email-link:hover{
+    top: 10px;
+}
+#mobile-link:hover{
+    top: 10px;
+}
+
